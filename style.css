@@ -4,7 +4,9 @@
     box-sizing: border-box; 
 }
 
-body{
+
+
+#global{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -69,6 +71,25 @@ body{
     border-radius: 5px ;
     color: white;
     cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+footer p{
+    color: white;
+    font-size: 18px;
+}
+
+footer a{
+    color: rgb(0, 17, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
